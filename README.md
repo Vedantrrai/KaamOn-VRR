@@ -1,113 +1,36 @@
-# KaamOn-VRR
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-KaamOn: On-Demand Service Marketplace 🇮🇳
-KaamOn is a modern, responsive web application designed to connect users with trusted local service workers. Built with Next.js and styled with Tailwind CSS, this platform provides a seamless experience for finding, booking, and managing services like plumbing, electrical work, cleaning, and more.
+## Getting Started
 
-Tagline: "Har Kaam, Bas Ek Tap Mein!" (Every Task, In Just One Tap!)
+First, run the development server:
 
-✨ Key Features
-Role-Based Dashboards: Separate, feature-rich dashboards for Users, Workers, and Admins.
-
-Service & Worker Discovery: Browse a wide range of services and filter through detailed worker profiles.
-
-Dynamic Filtering: Easily filter workers by service category to find the perfect professional for the job.
-
-Mock Authentication: A complete, client-side authentication flow (Login, Signup, Logout) using localStorage to simulate user roles.
-
-Interactive Booking System: A sleek modal-based booking process with date, time, and address selection.
-
-Modern UI/UX: Built with shadcn/ui, featuring beautiful components like toasts, dialogs, and cards with "glassmorphism" effects.
-
-Rich Animations: Smooth page transitions and component animations powered by Framer Motion.
-
-Fully Responsive: A seamless experience across desktop, tablet, and mobile devices.
-
-🛠️ Tech Stack
-Framework: Next.js 15 (with Turbopack)
-
-Styling: Tailwind CSS
-
-UI Components: shadcn/ui
-
-Language: TypeScript
-
-Animations: Framer Motion
-
-Icons: Lucide React
-
-Notifications: Sonner
-
-Forms: React Hook Form
-
-🚀 Getting Started
-Follow these instructions to get a local copy of the project up and running.
-
-Prerequisites
-Node.js (v18.0 or later recommended)
-
-A package manager like npm, yarn, or pnpm
-
-Installation
-Clone the repository:
-
-Bash
-
-git clone https://github.com/your-username/kaamon.git
-cd kaamon
-Install dependencies:
-
-Bash
-
-npm install
-or if you use yarn:
-
-Bash
-
-yarn install
-Run the development server:
-The project uses Next.js with Turbopack for lightning-fast development.
-
-Bash
-
+```bash
 npm run dev
-Open your browser:
-Navigate to http://localhost:3000 to see the application in action.
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Demo Accounts
-You can use the following mock accounts on the login page to explore the different user roles:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-User: user@test.com
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Worker: worker@test.com
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Admin: admin@test.com
+## Learn More
 
-(Any password will work for these demo accounts).
+To learn more about Next.js, take a look at the following resources:
 
-📁 Project Structure
-The project follows a standard Next.js App Router structure.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-/
-├── public/               # Static assets (images, fonts)
-│   ├── services/
-│   └── workers/
-├── src/
-│   ├── app/              # Main application routes
-│   │   ├── (dashboard)/
-│   │   ├── about/
-│   │   ├── login/
-│   │   ├── page.tsx      # Homepage
-│   │   └── ...
-│   ├── components/       # Reusable components
-│   │   └── ui/           # shadcn/ui components
-│   ├── lib/              # Utilities and data
-│   │   ├── auth.ts       # Mock authentication logic
-│   │   └── mockData.ts   # All mock data for services, workers, etc.
-│   └── ...
-├── next.config.mjs       # Next.js configuration
-├── package.json          # Project dependencies and scripts
-└── ...
-📦 Deployment
-The easiest way to deploy this Next.js app is to use the Vercel Platform.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-The project is configured for a seamless deployment with Vercel. No additional configuration is needed.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
