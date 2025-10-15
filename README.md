@@ -50,7 +50,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/your-username/kaamon.git
+git clone https://github.com/Vedantrrai/KaamOn-VRR.git
 cd kaamon
 Install dependencies:
 
